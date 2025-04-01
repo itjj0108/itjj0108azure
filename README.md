@@ -24,33 +24,79 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
+- Step 1 Sign in to Azure
+- Step 2 Create a Virtual Machine
+- Step 3 Configure Networking
+- Step 4 Review & Create
+- Step 5 Connect to Your VM
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src-<img width="1093" alt="Screenshot 2025-04-01 at 6 04 25 PM" src="https://github.com/user-attachments/assets/4adc2b17-5f95-442c-9521-a985a8059862" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 1: Sign in to Azure
+Go to Azure Portal.
+
+Log in with your Microsoft account.</p>
+<br />
+
+<p>
+<img src=<img 
+</p>
+<p>
+ Step 2: Create a Virtual Machine
+In the Azure Portal, search for "Virtual Machines" and click Create → Azure Virtual Machine.
+
+Fill in the Basic details:
+
+Subscription: Choose your Azure subscription.
+
+Resource Group: Create a new one or use an existing one.
+
+Virtual Machine Name: Enter a unique name.
+
+Region: Select a data center near you.
+
+Image: Choose an OS (Windows/Linux).
+
+Size: Pick a VM size (Standard B1s for basic use).
+
+Set Administrator Credentials (username & password).
+
+
+
+Step 3: Configure Networking
+Under Networking, use default settings or customize:
+
+Virtual Network: Default or create new.
+
+Subnet: Default or create new.
+
+Public IP: Enable if you need external access.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src=
+</p><img width="1093" alt="Screenshot 2025-04-01 at 6 21 18 PM" src="https://github.com/user-attachments/assets/4d728583-8d08-4f5c-810c-a229a24b7c9c" />
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ Step 4: Review & Create
+Click Review + Create.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Azure will validate your settings.
+
+Click Create to deploy your VM.
+
+Step 5: Connect to Your VM
+Once deployed, go to Virtual Machines → select your VM.
+
+Click Connect:
+
+For Windows: Use RDP (Remote Desktop Protocol).
+
+For Linux: Use SSH with a terminal.
+
 </p>
 <br />
